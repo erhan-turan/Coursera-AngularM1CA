@@ -31,7 +31,7 @@ function LunchCheckController($scope){
         }
 
         if(result[1]>0){
-            $scope.lunchHintMessage = result[1]+ " empty items excluded*";
+            $scope.lunchHintMessage = "* "+ result[1]+ " empty item(s) excluded";
         }
 
     }
